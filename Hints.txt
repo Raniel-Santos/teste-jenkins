@@ -1,0 +1,13 @@
+--- Utilizando a cobertura de testes do Pytest ---
+
+Comando para instalar:
+    pip install pytest-cov
+
+Para executar a cobertura de testes:
+    pytest --cov --cov
+
+Gerar o relatório em html:
+    pytest --cov-report html
+
+Gerar o relatório em XML:
+    pytest --cov-report xml 
